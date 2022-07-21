@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+   <!--
+      JavaScript 6th Edition
+      ITWP 1100
+      Chapter 5
+      Hands-on Project 5-1
+
+      Author: Randolph Chabot
+      Date:   3/15/22
+
+      Filename: index.html
+   -->
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Hands-on Project 5-1</title>
+</head>
+
+<body>
+   <p>
+      <a href="../home.html" title="Visit my Web Program Homepage!">Web Program Homepage</a>
+    </p>
+   <h1>
+      Hands-on Project 5-1
+   </h1>
+   
+   <p></p>
+   <p></p>
+   <p></p>
+   <p></p>
+   <footer>
+      
+         <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fchabotr564.macombserver.net%2Fitwp1100%2F5a%2Findex.html" title="HTML5 Validation">HTML5 Validation</a>
+         <a href="../home.html" title="Visit my Web Program Homepage!">Homepage</a>
+   </footer>
+      <script>
+   "use strict"; 
+         document.getElementsByTagName("p")[0].innerHTML = "Web browser name: " + navigator.appName; 
+         document.getElementsByTagName("p")[1].innerHTML = "Web browser version: " + navigator.appVersion; 
+         document.getElementsByTagName("p")[2].innerHTML = "Operating platform: " + navigator.platform; 
+         document.getElementsByTagName("p")[3].innerHTML = "User agent: " + navigator.userAgent;
+   </script>
+</body>
+</html>
